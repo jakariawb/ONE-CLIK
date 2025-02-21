@@ -14,5 +14,13 @@ function mypara(){
  document.querySelector('.jak').innerHTML = 'Home';
  document.querySelector('p').innerHTML = 'http://127.0.0.1:5500/one.html#';
 
+function myp (){
+    var myvar = document.querySelector('#jake');
+    myvar.innerHTML='you have clicked on button'
+}
 
+function myStory(){
+    var name = document.querySelector('.no')
+    name.innerHTML = 'I am a javascript and may work is bakind dinimake style rettrn';
+}
 
