@@ -10,3 +10,9 @@ function mypara(){
 
     )
 }
+ document.querySelector('li a').innerHTML = 'sona';
+ document.querySelector('.jak').innerHTML = 'Home';
+ document.querySelector('p').innerHTML = 'http://127.0.0.1:5500/one.html#';
+
+
+
