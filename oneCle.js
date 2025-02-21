@@ -23,4 +23,27 @@ function myStory(){
     var name = document.querySelector('.no')
     name.innerHTML = 'I am a javascript and may work is bakind dinimake style rettrn';
 }
+function go(){
+    var link = document.querySelector('#go')
+    link.innerHTML = '<a href="https://www.youtube.com/">clice me and my paise linke</a>';
+
+}
+
+function y(){
+    var no = document.querySelector('#on')
+    no.innerHTML= 'clice button 1'
+}
+function t (){
+    var no = document.querySelector('#on')
+    no.innerHTML = 'clice button 2'
+}
+var imgcod = document.querySelector('#img')
+function img1(){
+  imgcod.src= "img 1.png"
+}
+function img2(){
+ imgcod.src= "img 2.png"
+}
+
+
 
