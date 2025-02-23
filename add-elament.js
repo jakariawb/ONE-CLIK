@@ -30,8 +30,15 @@ var addDiv = document.getElementById("div2");
 
 addDiv.appendChild(banner);
 
-var banner2 = document.createElement("h1");
-var addtext2 = document.createTextNode("add elemeint");
-banner2.appendChild(addtext2);
-var addDiv1 = document.getElementById("div2");
-addDiv1.appendChild(banner2);
+var name = document.createElement("p");
+var addtxt = document.createTextNode("how ar you");
+name.appendChild(addtxt);
+
+var divAdd = getElementById("div2");
+divAdd.appendChild(name)
+
+// var banner2 = document.createElement("h1");
+// var addtext2 = document.createTextNode("add elemeint");
+// banner2.appendChild(addtext2);
+// var addDiv1 = document.getElementById("div2");
+// addtext2.appendChild(banner2);
