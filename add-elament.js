@@ -30,12 +30,31 @@ var addDiv = document.getElementById("div2");
 
 addDiv.appendChild(banner);
 
-var name = document.createElement("p");
-var addtxt = document.createTextNode("how ar you");
-name.appendChild(addtxt);
 
-var divAdd = getElementById("div2");
-divAdd.appendChild(name)
+var heading4 = document.createElement("h1");
+var textadd = document.createTextNode("Name:jakaria jomaddar");
+heading4.appendChild(textadd);
+
+var addAdiv2 = document.getElementById("no");
+addAdiv2.appendChild(textadd);
+
+var headin5 = document.getElementsByTagName("h1")[1];
+
+no.removeChild("headin5")
+
+
+
+for(var y = 0;y<=20; y++){
+    var number = document.createElement("h1");
+    var addnumber = document.createTextNode("my name :is jakaria");
+    number.appendChild(addnumber);
+
+    var divno = document.getElementById("no");
+    divno.appendChild(addnumber);
+
+}
+
+
 
 // var banner2 = document.createElement("h1");
 // var addtext2 = document.createTextNode("add elemeint");
