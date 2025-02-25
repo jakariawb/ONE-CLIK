@@ -54,6 +54,22 @@ for(var y = 0;y<=20; y++){
 
 }
 
+var photo = ["img1/4.jpg", "img1/2.jpg", "img1/3.jpg"];
+var tigphoto = document.querySelector("img1");
+
+var count = 0;
+
+function Next (){
+    count++;
+
+    if (count >= photo.length){
+        count = 0;
+    }
+
+    tigphoto.src = photo[count]
+    
+}
+
 
 
 // var banner2 = document.createElement("h1");
